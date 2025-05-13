@@ -1,0 +1,11 @@
+.header {
+    @apply flex flex-row items-start justify-between mt-14 pl-40 pr-40 h-20;
+}
+
+.headerLinks {
+    @apply flex flex-row space-x-10;
+}
+
+.headerLinks a {
+    @apply uppercase text-xs;
+}

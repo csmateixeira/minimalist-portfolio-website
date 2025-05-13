@@ -1,0 +1,15 @@
+.footer {
+    @apply bg-grayblue flex flex-row mt-32 pl-40 pr-40 h-20 justify-between;
+}
+
+.footerLinks {
+    @apply flex flex-row items-center space-x-10;
+}
+
+.footerLinks a {
+    @apply text-xs text-white uppercase;
+}
+
+.footerIcons {
+    @apply flex flex-row space-x-4 items-center;
+}
